@@ -1,0 +1,676 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Dairy",
+      "image": "/assets/images/dairy.png"
+    },
+    {
+      "id": "2",
+      "name": "Tea",
+      "image": "/assets/images/tea.png"
+    },
+    {
+      "id": "3",
+      "name": "Soft Drinks",
+      "image": "/assets/images/softdrinks.png"
+    },
+    {
+      "id": "4",
+      "name": "Cleaners",
+      "image": "/assets/images/cleaners.png"
+    },
+    {
+      "id": "5",
+      "name": "Bath Soaps",
+      "image": "/assets/images/soaps.png"
+    },
+    {
+      "id": "6",
+      "name": "Tooth Paste",
+      "image": "/assets/images/toothpaste.png"
+    },
+    {
+      "id": "7",
+      "name": "Shampoos",
+      "image": "/assets/images/shampoos.png"
+    },
+    {
+      "id": "8",
+      "name": "Pooja Needs",
+      "image": "/assets/images/poojaneeds.png"
+    },
+    {
+      "id": "9",
+      "name": "Towels",
+      "image": "/assets/images/towels.png"
+    },
+    {
+      "id": "10",
+      "name": "Bath Utility",
+      "image": "/assets/images/bath_utility.png"
+    },
+    {
+      "id": "11",
+      "name": "Coffee",
+      "image": "/assets/images/coffee.png"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "image": "/assets/images/Dale-Carnegie.jpg",
+      "title": "How To Win Friends And Influence People By  ",
+      "author": "Darle Carnegie",
+      "price": "199",
+      "dmartPrice": "139",
+      "discount": "60",
+      "unit": "1 Unit"
+    },
+    {
+      "id": "2",
+      "image": "/assets/images/psychology-of-money.jpg",
+      "title": "The Psychology Of Money By  ",
+      "author": "Morgan Housel",
+      "dmartPrice": "139",
+      "price": "259",
+      "discount": "60",
+      "unit": "1 Unit"
+    },
+    {
+      "id": "3",
+      "image": "/assets/images/robin-sharma.jpg",
+      "title": "The Monk Who Sold His Ferrari By  ",
+      "author": "Robin Sharma",
+      "dmartPrice": "139",
+      "price": "194",
+      "discount": "60",
+      "unit": "1 Unit"
+    },
+    {
+      "id": "4",
+      "image": "/assets/images/SSB-interview.jpg",
+      "title": "SSB Interview The Complete Guide Second Edition By  ",
+      "author": "Dr. (CDR) N K Natarajan",
+      "dmartPrice": "139",
+      "price": "230",
+      "discount": "60",
+      "unit": "1 Unit"
+    },
+    {
+      "id": "5",
+      "image": "/assets/images/art_war.jpg",
+      "title": "The Art of War Spirituality For Conflict By  ",
+      "author": "Sun Tzu",
+      "dmartPrice": "139",
+      "price": "199",
+      "discount": "60",
+      "unit": "1 Unit"
+    },
+    {
+      "id": "6",
+      "image": "/assets/images/5-club.jpg",
+      "title": "The 5 Am Club Own Your Morning Elevate Your Life By  ",
+      "author": "Robin Sharma",
+      "dmartPrice": "139",
+      "price": " 235",
+      "discount": "60",
+      "unit": "1 Unit"
+    },
+    {
+      "id": "7",
+      "image": "/assets/images/Mahatma_gandhi.jpg",
+      "title": "Mahatma Gandhi Essays & Reflections By ",
+      "author": "Dr. Sarvepalli Radhakrishnan ",
+      "dmartPrice": "139",
+      "price": "449",
+      "discount": "60",
+      "unit": "1 Unit"
+    }
+  ],
+
+  "groceries":[
+
+      {
+        "id": "1",
+        "name": "ProV Select California Almonds: 1 kg",
+        "brand": "ProV",
+        "poster": "/assets/images/premia.jpg",
+        "unit": [
+          "1 kg"
+        ],
+        "price": "130",
+        "dmartPrice": "105",
+        "pricePerGram": "0.80",
+        "discount": "25",
+        "isVegetarian": true,
+        "details": {
+          " features": [
+            "Premium products inspiring healthier choices for nutritional living",
+            "Sourced from the finest orchards and choicest suppliers from India and abroad",
+            "A step towards wholesome goodness"
+          ],
+          "Any Other Must-Know Information": [
+            "Allergen advice: Packed in a facility that packs tree nuts. May contain dry fruits and other nuts"
+          ],
+          "Ingredients": [
+            "Almond kernels"
+          ],
+          "Benefits": [
+            "Almonds are known to be rich in protein"
+          ],
+          "Care Instructions": [
+            "Store in a cool, dry and hygienic place"
+          ]
+        },
+        "disclaimer": "Actual product packaging and materials may contain more and different information than what is shown on our website. We recommend that you do not rely solely on the information presented and that you always read labels, warnings, and directions before using or consuming a product.",
+        "additionalInfo": "For additional information about the product, please contact our customer service."
+      },
+      {
+        "id": 2,
+        "poster": "/assets/images/groundnut.jpg",
+        "name": "ProV Select California Almonds: 1 kg",
+        "brand": "ProV",
+        "unit": [
+          "1 kg"
+        ],
+        "price": "87",
+        "dmartPrice": "73",
+        "pricePerGram": "0.80",
+        "discount": " 14",
+        "isVegetarian": true,
+        "details": {
+          " features": [
+            "Premium products inspiring healthier choices for nutritional living",
+            "Sourced from the finest orchards and choicest suppliers from India and abroad",
+            "A step towards wholesome goodness"
+          ],
+          "Any Other Must-Know Information": [
+            "Allergen advice: Packed in a facility that packs tree nuts. May contain dry fruits and other nuts"
+          ],
+          "Ingredients": [
+            "Almond kernels"
+          ],
+          "Benefits": [
+            "Almonds are known to be rich in protein"
+          ],
+          "Care Instructions": [
+            "Store in a cool, dry and hygienic place"
+          ]
+        },
+        "disclaimer": "Actual product packaging and materials may contain more and different information than what is shown on our website. We recommend that you do not rely solely on the information presented and that you always read labels, warnings, and directions before using or consuming a product.",
+        "additionalInfo": "For additional information about the product, please contact our customer service."
+      }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "ProV Select California Almonds: 1 kg",
+      "brand": "ProV",
+      "poster": "/assets/images/premia.jpg",
+      "unit": [
+        "1 kg"
+      ],
+      "price": "130",
+      "dmartPrice": "105",
+      "pricePerGram": "0.80",
+      "discount": "25",
+      "isVegetarian": true,
+      "details": {
+        " features": [
+          "Premium products inspiring healthier choices for nutritional living",
+          "Sourced from the finest orchards and choicest suppliers from India and abroad",
+          "A step towards wholesome goodness"
+        ],
+        "Any Other Must-Know Information": [
+          "Allergen advice: Packed in a facility that packs tree nuts. May contain dry fruits and other nuts"
+        ],
+        "Ingredients": [
+          "Almond kernels"
+        ],
+        "Benefits": [
+          "Almonds are known to be rich in protein"
+        ],
+        "Care Instructions": [
+          "Store in a cool, dry and hygienic place"
+        ]
+      },
+      "disclaimer": "Actual product packaging and materials may contain more and different information than what is shown on our website. We recommend that you do not rely solely on the information presented and that you always read labels, warnings, and directions before using or consuming a product.",
+      "additionalInfo": "For additional information about the product, please contact our customer service."
+    },
+    {
+      "id": 2,
+      "poster": "/assets/images/groundnut.jpg",
+      "name": "ProV Select California Almonds: 1 kg",
+      "brand": "ProV",
+      "unit": [
+        "1 kg"
+      ],
+      "price": "87",
+      "dmartPrice": "73",
+      "pricePerGram": "0.80",
+      "discount": " 14",
+      "isVegetarian": true,
+      "details": {
+        " features": [
+          "Premium products inspiring healthier choices for nutritional living",
+          "Sourced from the finest orchards and choicest suppliers from India and abroad",
+          "A step towards wholesome goodness"
+        ],
+        "Any Other Must-Know Information": [
+          "Allergen advice: Packed in a facility that packs tree nuts. May contain dry fruits and other nuts"
+        ],
+        "Ingredients": [
+          "Almond kernels"
+        ],
+        "Benefits": [
+          "Almonds are known to be rich in protein"
+        ],
+        "Care Instructions": [
+          "Store in a cool, dry and hygienic place"
+        ]
+      },
+      "disclaimer": "Actual product packaging and materials may contain more and different information than what is shown on our website. We recommend that you do not rely solely on the information presented and that you always read labels, warnings, and directions before using or consuming a product.",
+      "additionalInfo": "For additional information about the product, please contact our customer service."
+    },
+    {
+      "id": 3,
+      "poster": "/assets/images/jeera.jpg",
+      "name": "ProV Select California Almonds: 1 kg",
+      "brand": "ProV",
+      "unit": [
+        "1 kg"
+      ],
+      "price": "157",
+      "dmartPrice": "799",
+      "pricePerGram": "0.80",
+      "discount": "550",
+      "isVegetarian": true,
+      "details": {
+        " features": [
+          "Premium products inspiring healthier choices for nutritional living",
+          "Sourced from the finest orchards and choicest suppliers from India and abroad",
+          "A step towards wholesome goodness"
+        ],
+        "Any Other Must-Know Information": [
+          "Allergen advice: Packed in a facility that packs tree nuts. May contain dry fruits and other nuts"
+        ],
+        "Ingredients": [
+          "Almond kernels"
+        ],
+        "Benefits": [
+          "Almonds are known to be rich in protein"
+        ],
+        "Care Instructions": [
+          "Store in a cool, dry and hygienic place"
+        ]
+      },
+      "disclaimer": "Actual product packaging and materials may contain more and different information than what is shown on our website. We recommend that you do not rely solely on the information presented and that you always read labels, warnings, and directions before using or consuming a product.",
+      "additionalInfo": "For additional information about the product, please contact our customer service."
+    },
+    {
+      "id": 4,
+      "poster": "/assets/images/almonds.jpg",
+      "name": "ProV Select California Almonds: 1 kg",
+      "brand": "ProV",
+      "unit": [
+        "1 kg"
+      ],
+      "price": "1,349",
+      "dmartPrice": "799",
+      "pricePerGram": "0.80",
+      "discount": "550",
+      "isVegetarian": true,
+      "details": {
+        " features": [
+          "Premium products inspiring healthier choices for nutritional living",
+          "Sourced from the finest orchards and choicest suppliers from India and abroad",
+          "A step towards wholesome goodness"
+        ],
+        "Any Other Must-Know Information": [
+          "Allergen advice: Packed in a facility that packs tree nuts. May contain dry fruits and other nuts"
+        ],
+        "Ingredients": [
+          "Almond kernels"
+        ],
+        "Benefits": [
+          "Almonds are known to be rich in protein"
+        ],
+        "Care Instructions": [
+          "Store in a cool, dry and hygienic place"
+        ]
+      },
+      "disclaimer": "Actual product packaging and materials may contain more and different information than what is shown on our website. We recommend that you do not rely solely on the information presented and that you always read labels, warnings, and directions before using or consuming a product.",
+      "additionalInfo": "For additional information about the product, please contact our customer service."
+    },
+    {
+      "id": 5,
+      "poster": "/assets/images/poha.jpg",
+      "name": "ProV Select California Almonds: 1 kg",
+      "brand": "ProV",
+      "unit": [
+        "1 kg"
+      ],
+      "price": "1,349",
+      "dmartPrice": "799",
+      "pricePerGram": "0.80",
+      "discount": "550",
+      "isVegetarian": true,
+      "details": {
+        " features": [
+          "Premium products inspiring healthier choices for nutritional living",
+          "Sourced from the finest orchards and choicest suppliers from India and abroad",
+          "A step towards wholesome goodness"
+        ],
+        "Any Other Must-Know Information": [
+          "Allergen advice: Packed in a facility that packs tree nuts. May contain dry fruits and other nuts"
+        ],
+        "Ingredients": [
+          "Almond kernels"
+        ],
+        "Benefits": [
+          "Almonds are known to be rich in protein"
+        ],
+        "Care Instructions": [
+          "Store in a cool, dry and hygienic place"
+        ]
+      },
+      "disclaimer": "Actual product packaging and materials may contain more and different information than what is shown on our website. We recommend that you do not rely solely on the information presented and that you always read labels, warnings, and directions before using or consuming a product.",
+      "additionalInfo": "For additional information about the product, please contact our customer service."
+    },
+    {
+      "id": 6,
+      "poster": "/assets/images/cashews.jpg",
+      "name": "ProV Select California Almonds: 1 kg",
+      "brand": "ProV",
+      "unit": [
+        "1 kg"
+      ],
+      "price": "1,349",
+      "dmartPrice": "799",
+      "pricePerGram": "0.80",
+      "discount": "550",
+      "isVegetarian": true,
+      "details": {
+        " features": [
+          "Premium products inspiring healthier choices for nutritional living",
+          "Sourced from the finest orchards and choicest suppliers from India and abroad",
+          "A step towards wholesome goodness"
+        ],
+        "Any Other Must-Know Information": [
+          "Allergen advice: Packed in a facility that packs tree nuts. May contain dry fruits and other nuts"
+        ],
+        "Ingredients": [
+          "Almond kernels"
+        ],
+        "Benefits": [
+          "Almonds are known to be rich in protein"
+        ],
+        "Care Instructions": [
+          "Store in a cool, dry and hygienic place"
+        ]
+      },
+      "disclaimer": "Actual product packaging and materials may contain more and different information than what is shown on our website. We recommend that you do not rely solely on the information presented and that you always read labels, warnings, and directions before using or consuming a product.",
+      "additionalInfo": "For additional information about the product, please contact our customer service."
+    },
+    {
+      "id": 7,
+      "poster": "/assets/images/jaggery.jpg",
+      "name": "ProV Select California Almonds: 1 kg",
+      "brand": "ProV",
+      "unit": [
+        "1 kg"
+      ],
+      "price": "349",
+      "dmartPrice": "289",
+      "pricePerGram": "0.80",
+      "discount": "550",
+      "isVegetarian": true,
+      "details": {
+        " features": [
+          "Premium products inspiring healthier choices for nutritional living",
+          "Sourced from the finest orchards and choicest suppliers from India and abroad",
+          "A step towards wholesome goodness"
+        ],
+        "Any Other Must-Know Information": [
+          "Allergen advice: Packed in a facility that packs tree nuts. May contain dry fruits and other nuts"
+        ],
+        "Ingredients": [
+          "Almond kernels"
+        ],
+        "Benefits": [
+          "Almonds are known to be rich in protein"
+        ],
+        "Care Instructions": [
+          "Store in a cool, dry and hygienic place"
+        ]
+      },
+      "disclaimer": "Actual product packaging and materials may contain more and different information than what is shown on our website. We recommend that you do not rely solely on the information presented and that you always read labels, warnings, and directions before using or consuming a product.",
+      "additionalInfo": "For additional information about the product, please contact our customer service."
+    },
+    {
+      "id": 8,
+      "poster": "/assets/images/raisins.jpg",
+      "name": "ProV Select California Almonds: 1 kg",
+      "brand": "ProV",
+      "unit": [
+        "1 kg"
+      ],
+      "price": "1,349",
+      "dmartPrice": "799",
+      "pricePerGram": "0.80",
+      "discount": "550",
+      "isVegetarian": true,
+      "details": {
+        " features": [
+          "Premium products inspiring healthier choices for nutritional living",
+          "Sourced from the finest orchards and choicest suppliers from India and abroad",
+          "A step towards wholesome goodness"
+        ],
+        "Any Other Must-Know Information": [
+          "Allergen advice: Packed in a facility that packs tree nuts. May contain dry fruits and other nuts"
+        ],
+        "Ingredients": [
+          "Almond kernels"
+        ],
+        "Benefits": [
+          "Almonds are known to be rich in protein"
+        ],
+        "Care Instructions": [
+          "Store in a cool, dry and hygienic place"
+        ]
+      },
+      "disclaimer": "Actual product packaging and materials may contain more and different information than what is shown on our website. We recommend that you do not rely solely on the information presented and that you always read labels, warnings, and directions before using or consuming a product.",
+      "additionalInfo": "For additional information about the product, please contact our customer service."
+    },
+    {
+      "id": 9,
+      "poster": "/assets/images/premia.jpg",
+      "name": "ProV Select California Almonds: 1 kg",
+      "brand": "ProV",
+      "unit": [
+        "1 kg"
+      ],
+      "price": "1,349",
+      "dmartPrice": "799",
+      "pricePerGram": "0.80",
+      "discount": "550",
+      "isVegetarian": true,
+      "details": {
+        " features": [
+          "Premium products inspiring healthier choices for nutritional living",
+          "Sourced from the finest orchards and choicest suppliers from India and abroad",
+          "A step towards wholesome goodness"
+        ],
+        "Any Other Must-Know Information": [
+          "Allergen advice: Packed in a facility that packs tree nuts. May contain dry fruits and other nuts"
+        ],
+        "Ingredients": [
+          "Almond kernels"
+        ],
+        "Benefits": [
+          "Almonds are known to be rich in protein"
+        ],
+        "Care Instructions": [
+          "Store in a cool, dry and hygienic place"
+        ]
+      },
+      "disclaimer": "Actual product packaging and materials may contain more and different information than what is shown on our website. We recommend that you do not rely solely on the information presented and that you always read labels, warnings, and directions before using or consuming a product.",
+      "additionalInfo": "For additional information about the product, please contact our customer service."
+    },
+    {
+      "id": 10,
+      "poster": "/assets/images/groundnut.jpg",
+      "name": "DMart Premia Groundnut",
+      "price": "214",
+      "dmartprice": "146",
+      "discount": "68",
+      "unit": "1kg",
+      "features": [
+        "Premium products inspiring healthier choices for nutritional living",
+        "Sourced from the finest orchards and choicest suppliers from India and abroad",
+        "A step towards wholesome goodness"
+      ],
+      "ingredients": "Almond kernels",
+      "storage": "Store in a cool, dry, and hygienic place"
+    },
+    {
+      "id": 11,
+      "poster": "/assets/images/jeera.jpg",
+      "name": "DMart Premia Sugar",
+      "price": "301",
+      "dmartprice": "232",
+      "discount": "70",
+      "unit": "5kg",
+      "features": [
+        "Premium products inspiring healthier choices for nutritional living",
+        "Sourced from the finest orchards and choicest suppliers from India and abroad",
+        "A step towards wholesome goodness"
+      ],
+      "ingredients": "Almond kernels",
+      "storage": "Store in a cool, dry, and hygienic place"
+    },
+    {
+      "id": 12,
+      "poster": "/assets/images/almonds.jpg",
+      "name": "DMart Premia Sugar",
+      "price": "301",
+      "dmartprice": "232",
+      "discount": "70",
+      "unit": "5kg",
+      "features": [
+        "Premium products inspiring healthier choices for nutritional living",
+        "Sourced from the finest orchards and choicest suppliers from India and abroad",
+        "A step towards wholesome goodness"
+      ],
+      "ingredients": "Almond kernels",
+      "storage": "Store in a cool, dry, and hygienic place"
+    },
+    {
+      "id": 13,
+      "poster": "/assets/images/poha.jpg",
+      "name": "DMart Premia Sugar",
+      "price": "301",
+      "dmartprice": "232",
+      "discount": "70",
+      "unit": "5kg",
+      "features": [
+        "Premium products inspiring healthier choices for nutritional living",
+        "Sourced from the finest orchards and choicest suppliers from India and abroad",
+        "A step towards wholesome goodness"
+      ],
+      "ingredients": "Almond kernels",
+      "storage": "Store in a cool, dry, and hygienic place"
+    },
+    {
+      "id": 14,
+      "poster": "/assets/images/cashews.jpg",
+      "name": "DMart Premia Sugar",
+      "price": "301",
+      "dmartprice": "232",
+      "discount": "70",
+      "unit": "5kg",
+      "features": [
+        "Premium products inspiring healthier choices for nutritional living",
+        "Sourced from the finest orchards and choicest suppliers from India and abroad",
+        "A step towards wholesome goodness"
+      ],
+      "ingredients": "Almond kernels",
+      "storage": "Store in a cool, dry, and hygienic place"
+    },
+    {
+      "id": 15,
+      "poster": "/assets/images/jaggery.jpg",
+      "name": "DMart Premia Sugar",
+      "price": "301",
+      "dmartprice": "232",
+      "discount": "70",
+      "unit": "5kg",
+      "features": [
+        "Premium products inspiring healthier choices for nutritional living",
+        "Sourced from the finest orchards and choicest suppliers from India and abroad",
+        "A step towards wholesome goodness"
+      ],
+      "ingredients": "Almond kernels",
+      "storage": "Store in a cool, dry, and hygienic place"
+    },
+    {
+      "id": 16,
+      "poster": "/assets/images/raisins.jpg",
+      "name": "DMart Premia raisins",
+      "price": "301",
+      "dmartprice": "232",
+      "discount": "70",
+      "unit": "500g",
+      "features": [
+        "Premium products inspiring healthier choices for nutritional living",
+        "Sourced from the finest orchards and choicest suppliers from India and abroad",
+        "A step towards wholesome goodness"
+      ],
+      "ingredients": "Almond kernels",
+      "storage": "Store in a cool, dry, and hygienic place"
+    }
+  ],
+  "curated": [
+    {
+      "id": "1",
+      "image": "/assets/images/utensils.jpg",
+      "name": "Joyo MaxSafe Square Stainless Steel Container (3503) Silver  ",
+      "variant": "600 ml",
+      "unit": "1 Unit",
+      "price": " 1049",
+      "dmartprice": "524",
+      "discount": "525"
+    },
+    {
+      "id": "2",
+      "image": "/assets/images/rounded_utensils.jpg",
+      "name": "Joyo MaxSafe Stainless Steel round Food Container  ",
+      "variant": "360 ml",
+      "unit": "1 Unit",
+      "price": " 1049",
+      "dmartprice": "524",
+      "discount": "525"
+    }
+  ],
+  "allcategories": [
+    {
+      "id": "1",
+      "name": "Grocery",
+      "image": "https://cdn.dmart.in/images/categories/dairybeverages-131022.svg",
+      "categories": [
+        "Dals",
+        "Pulses",
+        "Dry Fruits",
+        "DMart Grocery",
+        "Cooking Oil",
+        "Ghee & Vanaspati",
+        "Flours & Grains",
+        "Rice & Rice Products",
+        "Masala & Spices",
+        "Salt / Sugar / Jaggery"
+      ]
+    }
+  ],
+  "users": []
+}
