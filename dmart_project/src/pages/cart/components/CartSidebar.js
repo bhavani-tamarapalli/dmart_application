@@ -165,7 +165,6 @@ export const CartSidebar = ({ isOpen, onClose }) => {
       const customerId = sessionStorage.getItem("customer_id");
       
       // Only load if we have a customer ID and either:
-      // - Haven't loaded before, OR
       // - Customer ID has changed
       if (customerId && 
           (!hasLoadedRef.current || lastCustomerIdRef.current !== customerId)) {
@@ -176,14 +175,13 @@ export const CartSidebar = ({ isOpen, onClose }) => {
     }
   }, [isOpen, loadCart]);
 
-  // Reset loading flag when sidebar closes
   useEffect(() => {
     if (!isOpen) {
       hasLoadedRef.current = false;
     }
   }, [isOpen]);
 
-  // Calculate totals (memoized to prevent unnecessary recalculations)
+  // Calculate totals
   const itemCount = cartList ? cartList.length : 0;
   
   const cartTotal = cartList ? cartList.reduce((sum, item) => {
@@ -237,15 +235,6 @@ export const CartSidebar = ({ isOpen, onClose }) => {
               </div>
             </div>
 
-            {/* Remove debug info for production */}
-            {/* 
-            <div className="p-2 bg-gray-100 text-xs">
-              <p>Debug: Cart items count: {itemCount}</p>
-              <p>Debug: Customer ID: {sessionStorage.getItem("customer_id")}</p>
-              <p>Debug: Is logged in: {sessionStorage.getItem("isLoggedIn")}</p>
-            </div>
-            */}
-
             {/* Check if there are cart items */}
             {cartList && cartList.length > 0 ? (
               <div>
@@ -270,7 +259,7 @@ export const CartSidebar = ({ isOpen, onClose }) => {
                 </div>
               </div>
             ) : (
-              // Show the CartEmpty component if the cart is empty
+              // Show the CartEmpty if the cart is empty
               <CartEmpty SetCartOpen={onClose} />
             )}
           </div>

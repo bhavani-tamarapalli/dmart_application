@@ -150,7 +150,7 @@ export const CartCard = ({ product }) => {
   useEffect(() => {
     async function getCartProduct() {
       try {
-        // Check if we need to fetch product details or if we already have them
+ 
         if (product.productName && product.price) {
           // We already have the product details from the cart API
           setCart(product);
@@ -163,11 +163,10 @@ export const CartCard = ({ product }) => {
           
           const data = await response.json();
           console.log("Product data:", data);
-          setCart({...data, quantity: product.quantity}); // Merge with quantity from cart
+          setCart({...data, quantity: product.quantity}); 
         }
       } catch (error) {
         console.error("Error fetching product details:", error);
-        // Fallback: use whatever data we have from the product prop
         setCart(product);
       }
     }
@@ -209,7 +208,7 @@ export const CartCard = ({ product }) => {
   const increment = async () => {
     if (loading) return;
     const newCount = count + 1;
-    setCount(newCount); // Optimistic update
+    setCount(newCount); //update 
     await updateQuantity(newCount);
   };
 
@@ -217,10 +216,10 @@ export const CartCard = ({ product }) => {
     if (loading) return;
     if (count <= 1) {
       setCount(0);
-      await updateQuantity(0); // This will remove the item
+      await updateQuantity(0); // remove product 
     } else {
       const newCount = count - 1;
-      setCount(newCount); // Optimistic update
+      setCount(newCount); // update
       await updateQuantity(newCount);
     }
   };
@@ -237,7 +236,7 @@ export const CartCard = ({ product }) => {
     }
   };
 
-  // Handle image display - check multiple possible image fields
+  // Handle image display 
   const imageSrc = cart.image
     ? `data:image/jpeg;base64,${cart.image}`
     : "/placeholder.jpg";

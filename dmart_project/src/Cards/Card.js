@@ -138,7 +138,7 @@ export const Card = ({ product }) => {
         {productName}
       </h3>
 
-      {/* Pricing Section */}
+      {/*  Pricing Section */}
       <div className="text-xs text-gray-600 mb-2 grid grid-cols-3 gap-2 items-center">
         <div>
           <p className="text-gray-400">MRP</p>

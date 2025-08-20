@@ -204,9 +204,6 @@ export const CartProvider = ({ children }) => {
     const storedUserId = sessionStorage.getItem("customer_id");
     const isLoggedIn = sessionStorage.getItem("isLoggedIn");
     
-    // console.log('CartProvider - Customer ID:', storedUserId);
-    // console.log('CartProvider - Is logged in:', isLoggedIn);
-    
     if (storedUserId && isLoggedIn === "true") {
       dispatch({ type: "SET_USER", payload: storedUserId });
       loadCart(storedUserId);
@@ -220,7 +217,7 @@ export const CartProvider = ({ children }) => {
     }
 
     try {
-      // console.log(`Loading cart for customer: ${customerId}`);
+    
       const response = await fetch(`https://localhost:7001/api/Cart/${customerId}`);
       
       if (!response.ok) {
@@ -234,7 +231,6 @@ export const CartProvider = ({ children }) => {
       }
       
       const data = await response.json();
-      // console.log("Cart data from API:", data);
 
       // Handle different API response structures
       let cartItems = [];
@@ -253,10 +249,6 @@ export const CartProvider = ({ children }) => {
         cartItems = Array.isArray(data.items) ? data.items : [];
         totalPrice = data.total || cartItems.reduce((sum, item) => sum + ((item.price || 0) * (item.quantity || 1)), 0);
       }
-
-      // console.log('Processed cart items:', cartItems);
-      // console.log('Processed total price:', totalPrice);
-
       dispatch({ 
         type: "LOAD_CART", 
         payload: { cartItems, totalPrice } 
@@ -282,7 +274,6 @@ export const CartProvider = ({ children }) => {
     }
 
     try {
-      // console.log(`Making API call: POST /api/Cart/add?customerId=${storedUserId}&productId=${product.productId}&quantity=1`);
       
       const response = await fetch(
         `https://localhost:7001/api/Cart/add?customerId=${storedUserId}&productId=${product.productId}&quantity=1`,
@@ -311,7 +302,7 @@ export const CartProvider = ({ children }) => {
       
     } catch (error) {
       console.error("Error adding product to cart", error);
-      throw error; // Re-throw to let caller handle
+      throw error; 
     }
   };
 
@@ -385,7 +376,7 @@ export const CartProvider = ({ children }) => {
       addToCart, 
       removeFromCart, 
       updateCartQuantity,
-      loadCart // Expose loadCart function
+      loadCart 
     }}>
       {children}
     </CartContext.Provider>

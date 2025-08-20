@@ -112,7 +112,7 @@
 
 
 //web apis
-// Categories.jsx
+
 import { useState, useEffect } from "react";
 import { IoClose } from "react-icons/io5";
 import { Link } from "react-router-dom";
@@ -193,5 +193,3 @@ export const Categories = ({ isOpen, onClose }) => {
     </div>
   );
 };
-
-

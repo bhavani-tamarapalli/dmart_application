@@ -321,9 +321,8 @@
 
 //web api
 
-// Fixed CartReducer.js
 export const CartReducer = (state, action) => {
-  // console.log('CartReducer - Action:', action.type, action.payload);
+ 
   
   switch (action.type) {
     case "SET_USER":
@@ -333,7 +332,7 @@ export const CartReducer = (state, action) => {
       };
 
     case "LOAD_CART":
-      // console.log('CartReducer - Loading cart items:', action.payload.cartItems);
+  
       return {
         ...state,
         cartList: action.payload.cartItems || [],
@@ -341,7 +340,6 @@ export const CartReducer = (state, action) => {
       };
 
     case "ADD_TO_CART":
-      // This case is mainly for optimistic updates
       // The actual state will be updated by LOAD_CART after API call
       const existingItemIndex = state.cartList.findIndex(
         item => (item.productId || item.id) === (action.payload.productId || action.payload.id)

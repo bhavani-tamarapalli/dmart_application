@@ -372,9 +372,7 @@ export const Login = ({ onClose }) => {
           const responseData = await response.json();
           console.log('Login response:', responseData);
           
-          // FIXED: Store the correct customer ID from the response
-          // Assuming your API returns user data with customerId field
-          // Adjust the field name based on your actual API response structure
+          // Store the correct customer ID from the response
           const customerId = responseData.customerId || responseData.id || responseData.userId;
           
           if (customerId) {

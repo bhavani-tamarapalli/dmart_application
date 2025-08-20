@@ -551,7 +551,7 @@ export const Header=()=> {
         setSuggestions([]);
         setShowSuggestions(false);
       }
-    }, 300); // 300ms delay
+    }, 300); 
 
     return () => clearTimeout(timer);
   }, [searchQuery]);

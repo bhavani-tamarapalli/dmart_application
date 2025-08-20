@@ -252,20 +252,15 @@ export const ProductDetails = () => {
     try {
       setAdding(true);
 
-      // Check login status first
+      // Check login status 
       const customerId = sessionStorage.getItem("customer_id");
       const isLoggedIn = sessionStorage.getItem("isLoggedIn");
-      
-      // console.log('ProductDetails - Customer ID:', customerId);
-      // console.log('ProductDetails - Is logged in:', isLoggedIn);
-      
+
       if (!customerId || !isLoggedIn || isLoggedIn !== "true") {
-        // alert("Please login to add items to cart");
         console.log("please login to add items to cart")
         return;
       }
 
-      // console.log('ProductDetails - Adding product:', product);
 
       //  Only call addToCart from context, which handles the API call
       await addToCart({
@@ -278,13 +273,11 @@ export const ProductDetails = () => {
         quantity: 1
       });
 
-      // alert("Product added to cart successfully!");
 
       console.log("product added to cart successfully")
       
     } catch (error) {
       console.error("Error adding to cart:", error);
-      // alert(`Error adding to cart: ${error.message}`);
     } finally {
       setAdding(false);
     }
@@ -292,10 +285,8 @@ export const ProductDetails = () => {
 
   return (
     <div className="container mx-auto p-4 mt-32">
-      {/* Debug info - remove in production */}
       <div className="mb-4 p-2 bg-gray-100 text-sm">
         <p>Customer ID: {sessionStorage.getItem("customer_id")}</p>
-        {/* <p>Is Logged In: {sessionStorage.getItem("isLoggedIn")}</p> */}
         <p>Product ID: {product.productId}</p>
       </div>
       

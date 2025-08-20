@@ -135,7 +135,6 @@ export const CartEmpty=({ SetCartOpen }) =>{
 
     return (
         <div className="flex flex-col h-full">
-            {/* Header is already rendered in CartSidebar, so we don't repeat it here */}
             
             {/* Empty cart content */}
             <div className="flex-1 flex flex-col justify-center items-center p-8">
